@@ -1,0 +1,27 @@
+! Colors
+
+! black dark/light
+*color0:                #000000
+*color8:                #767676
+! red dark/light
+*color1:                #cc0403
+*color9:                #f2201f
+! green dark/light
+*color2:                #19cb00
+*color10:               #23fd00
+! yellow dark/light
+*color3:                #cecb00
+*color11:               #fffd00
+! blue dark/light
+*color4:                #0d73cc
+*color12:               #1a8fff
+! magenta dark/light
+*color5:                #cb1ed1
+*color13:               #fd28ff
+! cyan dark/light
+*color6:                #0dcdcd
+*color14:               #14ffff
+! white dark/light
+*color7:                #dddddd
+*color15:               #ffffff
+
