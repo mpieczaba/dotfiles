@@ -1,0 +1,74 @@
+configuration {
+    font: "FiraCode Nerd Font 11";
+    show-icons: true;
+    icon-theme: "Papirus-Dark";
+    display-combi: "";
+    display-drun: "";
+    display-window: "";
+    drun-display-format: "{name}";
+    hide-scrollbar: true;
+    sidebar-mode: false;
+    modes: "combi";
+}
+
+* {
+    background-color:  transparent;
+    text-color: #ffffff;
+}
+
+window {
+    transparency: "real";
+    background-color: rgba(0, 0, 0, 0.7);
+    text-color: #ffffffff;
+    border: 0px;
+    width: 550px;
+    location: center;
+}
+
+inputbar {
+    expand: false;
+}
+
+prompt {
+    enabled: true;
+    padding: 10px 20px;
+}
+
+listview {
+    columns: 2;
+    lines: 7;
+    padding: 10px;
+    cycle: true;
+    dynamic: true;
+    layout: vertical;
+}
+
+entry {
+    blink: true;
+    placeholder: "Type to filter";
+    vertical-align: 0.5;
+}
+
+element {
+    orientation: horizontal;
+    padding: 6px;
+}
+
+element-icon {
+    background: transparent;
+    size: 24px;
+}
+
+element-text {
+    background-color: transparent;
+    vertical-align: 0.5;
+    margin: 0 2.5px;
+}
+
+element selected {
+    background-color: #ffffff;
+}
+
+element-text selected {
+    text-color: #000000;
+}
