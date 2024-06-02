@@ -13,25 +13,28 @@ configuration {
 
 * {
     background-color:  transparent;
-    text-color: #ffffff;
 }
 
 window {
-    transparency: "real";
-    background-color: rgba(0, 0, 0, 0.7);
-    text-color: #ffffffff;
+    background-color: #0f111a;
     border: 0px;
     width: 550px;
     location: center;
 }
 
+mainbox {
+  children: [inputbar, listview];
+}
+
 inputbar {
     expand: false;
+    children: [prompt, entry];
 }
 
 prompt {
     enabled: true;
     padding: 10px 20px;
+    text-color: #82aaff;
 }
 
 listview {
@@ -47,11 +50,14 @@ entry {
     blink: true;
     placeholder: "Type to filter";
     vertical-align: 0.5;
+    text-color: #eeffff;
+    cursor-color: #ffcb6b;
 }
 
 element {
     orientation: horizontal;
     padding: 6px;
+    children: [element-icon, element-text];
 }
 
 element-icon {
@@ -60,15 +66,16 @@ element-icon {
 }
 
 element-text {
-    background-color: transparent;
     vertical-align: 0.5;
     margin: 0 2.5px;
+    font: "FiraCode Nerd Font SemiBold 11";
+    text-color: #eeffff;
 }
 
 element selected {
-    background-color: #ffffff;
+    background-color: #3e4775;
 }
 
 element-text selected {
-    text-color: #000000;
+    text-color: #eeffff;
 }
