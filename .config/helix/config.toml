@@ -1,0 +1,64 @@
+theme = "better_material_deep_ocean"
+
+[editor]
+auto-format = true
+cursorline = true
+color-modes = true
+line-number = "relative"
+bufferline = "always"
+end-of-line-diagnostics = "hint"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+
+[editor.statusline]
+left = ["mode", "spacer", "version-control", "spacer", "spinner"]
+center = ["file-name", "file-modification-indicator"]
+right = [
+  "diagnostics",
+  "selections",
+  "position",
+  "file-encoding",
+  "file-line-ending",
+  "file-type",
+]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+display-inlay-hints = true
+
+[keys.normal]
+C-left = ":bp"
+C-right = ":bn"
+
+A-left = "jump_view_left"
+A-down = "jump_view_down"
+A-up = "jump_view_up"
+A-right = "jump_view_right"
+
+A-S-left = "swap_view_left"
+A-S-down = "swap_view_down"
+A-S-up = "swap_view_up"
+A-S-right = "swap_view_right"
+
+A-ret = "vsplit"
+A-q = ":bc"
+A-S-q = ":q"
+
+C-space = "hover"
+C-p = "file_picker"
+C-s = ":update"
+"C-." = "code_action"
+
+[keys.insert]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"

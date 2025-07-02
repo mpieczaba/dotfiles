@@ -1,0 +1,19 @@
+inherits = "material_deep_ocean"
+
+"ui.cursor" = { fg = "bg", bg = "white" }
+"ui.cursor.primary" = { fg = "bg", bg = "yellow" }
+
+"ui.statusline.normal" = { bg = "blue", fg = "bg", modifiers = ["bold"] }
+"ui.statusline.insert" = { bg = "green", fg = "bg", modifiers = ["bold"] }
+"ui.statusline.select" = { bg = "purple", fg = "bg", modifiers = ["bold"] }
+
+"ui.menu" = { bg = "bg" }
+"ui.popup" = { bg = "bg" }
+"ui.help" = { bg = "bg" }
+
+"ui.linenr.selected" = { fg = "text" }
+
+"ui.background" = {}
+
+[palette]
+selection = "#3e4775"
